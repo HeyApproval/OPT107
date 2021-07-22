@@ -814,7 +814,7 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD2a
 	this.instance_4 = new lib.HEAD2a();
-	this.instance_4.setTransform(123.25,134.8,1,1,0,0,0,110.5,47.8);
+	this.instance_4.setTransform(123.25,154.8,1,1,0,0,0,110.5,47.8);
 	this.instance_4.alpha = 0;
 	this.instance_4._off = true;
 
@@ -822,11 +822,11 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD1
 	this.instance_5 = new lib.HEAD1();
-	this.instance_5.setTransform(129.25,122.9,1,1,0,0,0,110.5,47.9);
+	this.instance_5.setTransform(129.25,142.9,1,1,0,0,0,110.5,47.9);
 	this.instance_5.alpha = 0;
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(28).to({_off:false},0).to({y:121.9,alpha:1},6).wait(58).to({x:-11.5},16,cjs.Ease.quadInOut).to({_off:true},1).wait(136));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(28).to({_off:false},0).to({y:141.9,alpha:1},6).wait(58).to({x:-11.5},16,cjs.Ease.quadInOut).to({_off:true},1).wait(136));
 
 	// pic1
 	this.instance_6 = new lib.pic1();
@@ -866,8 +866,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_Caregiver_160x600_atlas_P_1.png?1626996182222", id:"OPT107_Display_Caregiver_160x600_atlas_P_1"},
-		{src:"images/OPT107_Display_Caregiver_160x600_atlas_NP_1.jpg?1626996182222", id:"OPT107_Display_Caregiver_160x600_atlas_NP_1"}
+		{src:"images/OPT107_Display_Caregiver_160x600_atlas_P_1.png?1626997161610", id:"OPT107_Display_Caregiver_160x600_atlas_P_1"},
+		{src:"images/OPT107_Display_Caregiver_160x600_atlas_NP_1.jpg?1626997161610", id:"OPT107_Display_Caregiver_160x600_atlas_NP_1"}
 	],
 	preloads: []
 };
