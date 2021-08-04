@@ -794,7 +794,7 @@ if (reversed == null) { reversed = false; }
 
 	// pic1
 	this.instance_6 = new lib.pic1();
-	this.instance_6.setTransform(451,125,1,1,0,0,0,0,-125);
+	this.instance_6.setTransform(451,135,1,1,0,0,0,0,-125);
 	this.instance_6._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(5).to({_off:false},0).to({x:278},16,cjs.Ease.quadOut).wait(71).to({x:127.25},16,cjs.Ease.quadInOut).wait(137));
@@ -813,7 +813,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-166,38,677,235);
+p.nominalBounds = new cjs.Rectangle(-166,48,677,235);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -823,8 +823,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_Grandkids_300x250_atlas_P_1.png?1628098310520", id:"OPT107_Display_Grandkids_300x250_atlas_P_1"},
-		{src:"images/OPT107_Display_Grandkids_300x250_atlas_NP_1.jpg?1628098310520", id:"OPT107_Display_Grandkids_300x250_atlas_NP_1"}
+		{src:"images/OPT107_Display_Grandkids_300x250_atlas_P_1.png?1628098983226", id:"OPT107_Display_Grandkids_300x250_atlas_P_1"},
+		{src:"images/OPT107_Display_Grandkids_300x250_atlas_NP_1.jpg?1628098983226", id:"OPT107_Display_Grandkids_300x250_atlas_NP_1"}
 	],
 	preloads: []
 };
