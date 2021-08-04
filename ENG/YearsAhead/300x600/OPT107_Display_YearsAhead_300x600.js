@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"OPT107_Display_YearsAhead_300x600_atlas_P_1", frames: [[0,0,480,640]]},
+		{name:"OPT107_Display_YearsAhead_300x600_atlas_P_1", frames: [[0,0,400,600]]},
 		{name:"OPT107_Display_YearsAhead_300x600_atlas_NP_1", frames: [[0,0,300,600]]}
 ];
 
@@ -34,7 +34,7 @@ lib.ssMetadata = [
 
 
 
-(lib._300x600_Caregiverfpo = function() {
+(lib._300x600_YearsAhead = function() {
 	this.initialize(ss["OPT107_Display_YearsAhead_300x600_atlas_P_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -186,15 +186,15 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_1
-	this.instance = new lib._300x600_Caregiverfpo();
-	this.instance.setTransform(-356,-419,1.14,1.14);
+	// Layer_2
+	this.instance = new lib._300x600_YearsAhead();
+	this.instance.setTransform(-278,-493);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.pic1, new cjs.Rectangle(-356,-419,547.2,729.6), null);
+}).prototype = getMCSymbolPrototype(lib.pic1, new cjs.Rectangle(-278,-493,400,600), null);
 
 
 (lib.OptumR_RGBeps = function(mode,startPosition,loop,reversed) {
@@ -799,7 +799,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_6.setTransform(481,364,1,1,0,0,0,0,-125);
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(5).to({_off:false},0).to({x:258},16,cjs.Ease.quadOut).wait(71).to({x:187.25},16,cjs.Ease.quadInOut).wait(137));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(5).to({_off:false},0).to({x:218},16,cjs.Ease.quadOut).wait(71).to({x:187.25},16,cjs.Ease.quadInOut).wait(137));
 
 	// HorizRect
 	this.instance_7 = new lib.HorizRect();
@@ -815,7 +815,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-148,300,820.2,499.6);
+p.nominalBounds = new cjs.Rectangle(-148,296,751,304);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -825,8 +825,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_YearsAhead_300x600_atlas_P_1.png?1627327318403", id:"OPT107_Display_YearsAhead_300x600_atlas_P_1"},
-		{src:"images/OPT107_Display_YearsAhead_300x600_atlas_NP_1.jpg?1627327318403", id:"OPT107_Display_YearsAhead_300x600_atlas_NP_1"}
+		{src:"images/OPT107_Display_YearsAhead_300x600_atlas_P_1.png?1628101842881", id:"OPT107_Display_YearsAhead_300x600_atlas_P_1"},
+		{src:"images/OPT107_Display_YearsAhead_300x600_atlas_NP_1.jpg?1628101842881", id:"OPT107_Display_YearsAhead_300x600_atlas_NP_1"}
 	],
 	preloads: []
 };

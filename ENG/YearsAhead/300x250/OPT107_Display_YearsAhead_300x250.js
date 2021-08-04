@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"OPT107_Display_YearsAhead_300x250_atlas_P_1", frames: [[0,0,600,500]]},
+		{name:"OPT107_Display_YearsAhead_300x250_atlas_P_1", frames: [[0,0,400,600]]},
 		{name:"OPT107_Display_YearsAhead_300x250_atlas_NP_1", frames: [[0,0,300,250]]}
 ];
 
@@ -34,7 +34,7 @@ lib.ssMetadata = [
 
 
 
-(lib._300x250_Caregiverfpo = function() {
+(lib._300x600_YearsAhead = function() {
 	this.initialize(ss["OPT107_Display_YearsAhead_300x250_atlas_P_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -186,15 +186,15 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_1
-	this.instance = new lib._300x250_Caregiverfpo();
-	this.instance.setTransform(-212,-169,0.5,0.5);
+	// Layer_2
+	this.instance = new lib._300x600_YearsAhead();
+	this.instance.setTransform(-182,-300,0.5,0.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.pic1, new cjs.Rectangle(-212,-169,300,250), null);
+}).prototype = getMCSymbolPrototype(lib.pic1, new cjs.Rectangle(-182,-300,200,300), null);
 
 
 (lib.OptumR_RGBeps = function(mode,startPosition,loop,reversed) {
@@ -798,13 +798,13 @@ if (reversed == null) { reversed = false; }
 	this.instance_6.setTransform(451,125,1,1,0,0,0,0,-125);
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(5).to({_off:false},0).to({x:278},16,cjs.Ease.quadOut).wait(71).to({x:127.25},16,cjs.Ease.quadInOut).wait(137));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(5).to({_off:false},0).to({x:298},16,cjs.Ease.quadOut).wait(71).to({x:127.25},16,cjs.Ease.quadInOut).wait(137));
 
 	// HorizRect
 	this.instance_7 = new lib.HorizRect();
 	this.instance_7.setTransform(150,155);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(184).to({x:-86},16,cjs.Ease.quadInOut).wait(45));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(184).to({x:-56},16,cjs.Ease.quadInOut).wait(45));
 
 	// bkgd
 	this.instance_8 = new lib._300x250_BkgdTone();
@@ -814,7 +814,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-86,125,625,206);
+p.nominalBounds = new cjs.Rectangle(-56,75,525,175);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -824,8 +824,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_YearsAhead_300x250_atlas_P_1.png?1627327323704", id:"OPT107_Display_YearsAhead_300x250_atlas_P_1"},
-		{src:"images/OPT107_Display_YearsAhead_300x250_atlas_NP_1.jpg?1627327323704", id:"OPT107_Display_YearsAhead_300x250_atlas_NP_1"}
+		{src:"images/OPT107_Display_YearsAhead_300x250_atlas_P_1.png?1628104177503", id:"OPT107_Display_YearsAhead_300x250_atlas_P_1"},
+		{src:"images/OPT107_Display_YearsAhead_300x250_atlas_NP_1.jpg?1628104177503", id:"OPT107_Display_YearsAhead_300x250_atlas_NP_1"}
 	],
 	preloads: []
 };
