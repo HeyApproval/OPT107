@@ -621,8 +621,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_Grandkids_320x50_atlas_P_1.png?1628099560710", id:"OPT107_Display_Grandkids_320x50_atlas_P_1"},
-		{src:"images/OPT107_Display_Grandkids_320x50_atlas_NP_1.jpg?1628099560710", id:"OPT107_Display_Grandkids_320x50_atlas_NP_1"}
+		{src:"images/OPT107_Display_Grandkids_320x50_atlas_P_1.png?1628181436426", id:"OPT107_Display_Grandkids_320x50_atlas_P_1"},
+		{src:"images/OPT107_Display_Grandkids_320x50_atlas_NP_1.jpg?1628181436426", id:"OPT107_Display_Grandkids_320x50_atlas_NP_1"}
 	],
 	preloads: []
 };
