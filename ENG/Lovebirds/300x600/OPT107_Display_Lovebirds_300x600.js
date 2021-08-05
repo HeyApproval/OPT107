@@ -464,8 +464,8 @@ if (reversed == null) { reversed = false; }
 	this.shape_22.setTransform(115.3,23.125);
 
 	this.shape_23 = new cjs.Shape();
-	this.shape_23.graphics.f("#63666A").s().p("AAmBpIgminIAAAAIgkCnIg3AAIg3jRIAsAAIAnCnIAAAAIAkinIA4AAIAmCnIAAAAIAninIApAAIg3DRg");
-	this.shape_23.setTransform(91.95,20.375);
+	this.shape_23.graphics.f("#63666A").s().p("AAjBNIgih1IAAAAIggB1IguAAIg0iZIAqAAIAiBxIABAAIAghxIAtAAIAiBxIABAAIAfhxIAnAAIgwCZg");
+	this.shape_23.setTransform(93.65,23.125);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
 
@@ -817,8 +817,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_Lovebirds_300x600_atlas_P_1.png?1627075665383", id:"OPT107_Display_Lovebirds_300x600_atlas_P_1"},
-		{src:"images/OPT107_Display_Lovebirds_300x600_atlas_NP_1.jpg?1627075665383", id:"OPT107_Display_Lovebirds_300x600_atlas_NP_1"}
+		{src:"images/OPT107_Display_Lovebirds_300x600_atlas_P_1.png?1628185193083", id:"OPT107_Display_Lovebirds_300x600_atlas_P_1"},
+		{src:"images/OPT107_Display_Lovebirds_300x600_atlas_NP_1.jpg?1628185193083", id:"OPT107_Display_Lovebirds_300x600_atlas_NP_1"}
 	],
 	preloads: []
 };
