@@ -827,16 +827,16 @@ if (reversed == null) { reversed = false; }
 
 	// pic1
 	this.instance_6 = new lib.pic1();
-	this.instance_6.setTransform(401,135,1,1,0,0,0,0,-125);
+	this.instance_6.setTransform(354.8,171.95,0.79,0.79,0,0,0,0.1,-125);
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(5).to({_off:false},0).to({x:228},16,cjs.Ease.quadOut).wait(71).to({x:84.25},16,cjs.Ease.quadInOut).wait(137));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(5).to({_off:false},0).to({regX:0,x:218.05},16,cjs.Ease.quadOut).wait(71).to({x:104.5},16,cjs.Ease.quadInOut).wait(137));
 
 	// HorizRect
 	this.instance_7 = new lib.HorizRect();
 	this.instance_7.setTransform(100,155);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(184).to({x:-136},16,cjs.Ease.quadInOut).wait(45));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(184).to({x:-152},16,cjs.Ease.quadInOut).wait(45));
 
 	// bkgd
 	this.instance_8 = new lib._300x250_BkgdTone();
@@ -847,7 +847,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-161,125,650,216);
+p.nominalBounds = new cjs.Rectangle(-177,125,601.2,209.7);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -857,8 +857,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_ESP_Caregiver_250x250_atlas_P_1.png?1628285315970", id:"OPT107_Display_ESP_Caregiver_250x250_atlas_P_1"},
-		{src:"images/OPT107_Display_ESP_Caregiver_250x250_atlas_NP_1.jpg?1628285315970", id:"OPT107_Display_ESP_Caregiver_250x250_atlas_NP_1"}
+		{src:"images/OPT107_Display_ESP_Caregiver_250x250_atlas_P_1.png?1628527985049", id:"OPT107_Display_ESP_Caregiver_250x250_atlas_P_1"},
+		{src:"images/OPT107_Display_ESP_Caregiver_250x250_atlas_NP_1.jpg?1628527985049", id:"OPT107_Display_ESP_Caregiver_250x250_atlas_NP_1"}
 	],
 	preloads: []
 };
