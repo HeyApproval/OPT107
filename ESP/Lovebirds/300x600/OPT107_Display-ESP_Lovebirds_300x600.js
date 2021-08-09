@@ -500,8 +500,8 @@ if (reversed == null) { reversed = false; }
 	this.shape_26.setTransform(96.2,21.7);
 
 	this.shape_27 = new cjs.Shape();
-	this.shape_27.graphics.f("#63666A").s().p("Ag7BeIAEgkQAWAMAWAAQALAAAKgGQAMgHAAgMQAAgKgJgHQgGgFgQgHQgagKgKgIQgRgOAAgYQAAgeAUgQQASgOAeAAQAZAAAVAHIgEAgQgUgIgTAAQgMAAgIAGQgLAHAAAOQAAAKALAGQAFAEAQAHQAaAJALAJQAQAPAAAYQAAAcgTAQQgTAPgiAAQgVAAgdgHg");
-	this.shape_27.setTransform(80.05,19.125);
+	this.shape_27.graphics.f("#63666A").s().p("AgyBFIACgeQAUAJARAAQAKAAAFgEQAJgEAAgJQAAgJgIgEQgFgEgNgDQgUgGgIgIQgKgKAAgRQAAgVAQgMQAPgMAZAAQASABAWAFIgCAcQgSgGgQAAQgVAAAAAQQAAAJAYAIQAVAFAJAJQAKALAAASQAAAWgRANQgRAMgaAAQgTAAgXgHg");
+	this.shape_27.setTransform(81.475,21.7);
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_27},{t:this.shape_26},{t:this.shape_25},{t:this.shape_24},{t:this.shape_23},{t:this.shape_22},{t:this.shape_21},{t:this.shape_20},{t:this.shape_19},{t:this.shape_18},{t:this.shape_17},{t:this.shape_16},{t:this.shape_15},{t:this.shape_14},{t:this.shape_13},{t:this.shape_12},{t:this.shape_11},{t:this.shape_10},{t:this.shape_9},{t:this.shape_8},{t:this.shape_7},{t:this.shape_6},{t:this.shape_5},{t:this.shape_4},{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
 
@@ -901,8 +901,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_ESP_Lovebirds_300x600_atlas_P_1.png?1628285588225", id:"OPT107_Display_ESP_Lovebirds_300x600_atlas_P_1"},
-		{src:"images/OPT107_Display_ESP_Lovebirds_300x600_atlas_NP_1.jpg?1628285588225", id:"OPT107_Display_ESP_Lovebirds_300x600_atlas_NP_1"}
+		{src:"images/OPT107_Display_ESP_Lovebirds_300x600_atlas_P_1.png?1628533201160", id:"OPT107_Display_ESP_Lovebirds_300x600_atlas_P_1"},
+		{src:"images/OPT107_Display_ESP_Lovebirds_300x600_atlas_NP_1.jpg?1628533201160", id:"OPT107_Display_ESP_Lovebirds_300x600_atlas_NP_1"}
 	],
 	preloads: []
 };
