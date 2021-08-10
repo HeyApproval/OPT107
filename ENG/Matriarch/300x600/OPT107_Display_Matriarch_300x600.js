@@ -763,7 +763,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_6.setTransform(481,364,1,1,0,0,0,0,-125);
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(5).to({_off:false},0).to({x:258},16,cjs.Ease.quadOut).wait(71).to({x:187.25},16,cjs.Ease.quadInOut).wait(137));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(5).to({_off:false},0).to({x:258},16,cjs.Ease.quadOut).wait(71).to({x:147.25},16,cjs.Ease.quadInOut).wait(137));
 
 	// HorizRect
 	this.instance_7 = new lib.HorizRect();
@@ -779,7 +779,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-184.7,256,1046.1,903.2);
+p.nominalBounds = new cjs.Rectangle(-224.7,256,1086.1,903.2);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -789,8 +789,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_Matriarch_300x600_atlas_P_1.png?1627066691407", id:"OPT107_Display_Matriarch_300x600_atlas_P_1"},
-		{src:"images/OPT107_Display_Matriarch_300x600_atlas_NP_1.jpg?1627066691407", id:"OPT107_Display_Matriarch_300x600_atlas_NP_1"}
+		{src:"images/OPT107_Display_Matriarch_300x600_atlas_P_1.png?1628616307900", id:"OPT107_Display_Matriarch_300x600_atlas_P_1"},
+		{src:"images/OPT107_Display_Matriarch_300x600_atlas_NP_1.jpg?1628616307900", id:"OPT107_Display_Matriarch_300x600_atlas_NP_1"}
 	],
 	preloads: []
 };
