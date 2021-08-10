@@ -627,7 +627,7 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD2a
 	this.instance_6 = new lib.HEAD2a();
-	this.instance_6.setTransform(387.25,84.8,1,1,0,0,0,110.5,47.8);
+	this.instance_6.setTransform(387.25,96.8,1,1,0,0,0,110.5,47.8);
 	this.instance_6.alpha = 0;
 	this.instance_6._off = true;
 
@@ -672,8 +672,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_ESP_BestFriend_300x250_atlas_P_1.png?1628615611149", id:"OPT107_Display_ESP_BestFriend_300x250_atlas_P_1"},
-		{src:"images/OPT107_Display_ESP_BestFriend_300x250_atlas_NP_1.jpg?1628615611149", id:"OPT107_Display_ESP_BestFriend_300x250_atlas_NP_1"}
+		{src:"images/OPT107_Display_ESP_BestFriend_300x250_atlas_P_1.png?1628624828783", id:"OPT107_Display_ESP_BestFriend_300x250_atlas_P_1"},
+		{src:"images/OPT107_Display_ESP_BestFriend_300x250_atlas_NP_1.jpg?1628624828783", id:"OPT107_Display_ESP_BestFriend_300x250_atlas_NP_1"}
 	],
 	preloads: []
 };
