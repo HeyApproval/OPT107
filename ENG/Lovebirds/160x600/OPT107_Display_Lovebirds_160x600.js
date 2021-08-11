@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"OPT107_Display_Lovebirds_160x600_atlas_P_1", frames: [[0,0,600,500]]},
+		{name:"OPT107_Display_Lovebirds_160x600_atlas_P_1", frames: [[0,0,1280,960]]},
 		{name:"OPT107_Display_Lovebirds_160x600_atlas_NP_1", frames: [[0,0,300,600]]}
 ];
 
@@ -27,15 +27,15 @@ lib.ssMetadata = [
 
 
 
-(lib._300x250_Lovebirdsfpo = function() {
-	this.initialize(ss["OPT107_Display_Lovebirds_160x600_atlas_P_1"]);
+(lib._300x600_BkgdTone = function() {
+	this.initialize(ss["OPT107_Display_Lovebirds_160x600_atlas_NP_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib._300x600_BkgdTone = function() {
-	this.initialize(ss["OPT107_Display_Lovebirds_160x600_atlas_NP_1"]);
+(lib.OptumCA_01_LOVEBIRDS_0359_1280px = function() {
+	this.initialize(ss["OPT107_Display_Lovebirds_160x600_atlas_P_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -186,15 +186,15 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_1
-	this.instance = new lib._300x250_Lovebirdsfpo();
-	this.instance.setTransform(-284,-266,0.7096,0.71);
+	// Layer_2
+	this.instance = new lib.OptumCA_01_LOVEBIRDS_0359_1280px();
+	this.instance.setTransform(-313,-215,0.34,0.34);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.pic1, new cjs.Rectangle(-284,-266,425.8,355), null);
+}).prototype = getMCSymbolPrototype(lib.pic1, new cjs.Rectangle(-313,-215,435.2,326.4), null);
 
 
 (lib.OptumR_RGBeps = function(mode,startPosition,loop,reversed) {
@@ -844,7 +844,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-215,300,697.8,302);
+p.nominalBounds = new cjs.Rectangle(-215,300,678.2,324.4);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -854,8 +854,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_Lovebirds_160x600_atlas_P_1.png?1628185073062", id:"OPT107_Display_Lovebirds_160x600_atlas_P_1"},
-		{src:"images/OPT107_Display_Lovebirds_160x600_atlas_NP_1.jpg?1628185073062", id:"OPT107_Display_Lovebirds_160x600_atlas_NP_1"}
+		{src:"images/OPT107_Display_Lovebirds_160x600_atlas_P_1.png?1628704132260", id:"OPT107_Display_Lovebirds_160x600_atlas_P_1"},
+		{src:"images/OPT107_Display_Lovebirds_160x600_atlas_NP_1.jpg?1628704132260", id:"OPT107_Display_Lovebirds_160x600_atlas_NP_1"}
 	],
 	preloads: []
 };
