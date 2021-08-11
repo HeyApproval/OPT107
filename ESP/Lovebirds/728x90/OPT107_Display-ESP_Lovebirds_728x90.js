@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"OPT107_Display_ESP_Lovebirds_728x90_atlas_P_1", frames: [[0,0,600,500]]},
+		{name:"OPT107_Display_ESP_Lovebirds_728x90_atlas_P_1", frames: [[0,0,1280,960]]},
 		{name:"OPT107_Display_ESP_Lovebirds_728x90_atlas_NP_1", frames: [[0,0,728,90]]}
 ];
 
@@ -27,15 +27,15 @@ lib.ssMetadata = [
 
 
 
-(lib._300x250_Lovebirdsfpo = function() {
-	this.initialize(ss["OPT107_Display_ESP_Lovebirds_728x90_atlas_P_1"]);
+(lib._728x90_BkgdTone = function() {
+	this.initialize(ss["OPT107_Display_ESP_Lovebirds_728x90_atlas_NP_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib._728x90_BkgdTone = function() {
-	this.initialize(ss["OPT107_Display_ESP_Lovebirds_728x90_atlas_NP_1"]);
+(lib.OptumCA_01_LOVEBIRDS_0359_1280px = function() {
+	this.initialize(ss["OPT107_Display_ESP_Lovebirds_728x90_atlas_P_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -68,15 +68,15 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_1
-	this.instance = new lib._300x250_Lovebirdsfpo();
-	this.instance.setTransform(-222,-237,0.5916,0.5919);
+	// Layer_2
+	this.instance = new lib.OptumCA_01_LOVEBIRDS_0359_1280px();
+	this.instance.setTransform(-258,-199,0.29,0.29);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.pic1, new cjs.Rectangle(-222,-237,355,296), null);
+}).prototype = getMCSymbolPrototype(lib.pic1, new cjs.Rectangle(-258,-199,371.2,278.4), null);
 
 
 (lib.phone = function(mode,startPosition,loop,reversed) {
@@ -951,7 +951,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-103,-4,869,183.6);
+p.nominalBounds = new cjs.Rectangle(-103,25.3,869,170.1);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -961,8 +961,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_ESP_Lovebirds_728x90_atlas_P_1.png?1628551197153", id:"OPT107_Display_ESP_Lovebirds_728x90_atlas_P_1"},
-		{src:"images/OPT107_Display_ESP_Lovebirds_728x90_atlas_NP_1.jpg?1628551197154", id:"OPT107_Display_ESP_Lovebirds_728x90_atlas_NP_1"}
+		{src:"images/OPT107_Display_ESP_Lovebirds_728x90_atlas_P_1.png?1628705526371", id:"OPT107_Display_ESP_Lovebirds_728x90_atlas_P_1"},
+		{src:"images/OPT107_Display_ESP_Lovebirds_728x90_atlas_NP_1.jpg?1628705526371", id:"OPT107_Display_ESP_Lovebirds_728x90_atlas_NP_1"}
 	],
 	preloads: []
 };

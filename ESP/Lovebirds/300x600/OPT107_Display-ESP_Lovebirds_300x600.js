@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"OPT107_Display_ESP_Lovebirds_300x600_atlas_P_1", frames: [[0,0,600,500]]},
+		{name:"OPT107_Display_ESP_Lovebirds_300x600_atlas_P_1", frames: [[0,0,1280,960]]},
 		{name:"OPT107_Display_ESP_Lovebirds_300x600_atlas_NP_1", frames: [[0,0,300,600]]}
 ];
 
@@ -27,15 +27,15 @@ lib.ssMetadata = [
 
 
 
-(lib._300x250_Lovebirdsfpo = function() {
-	this.initialize(ss["OPT107_Display_ESP_Lovebirds_300x600_atlas_P_1"]);
+(lib._300x600_BkgdTone = function() {
+	this.initialize(ss["OPT107_Display_ESP_Lovebirds_300x600_atlas_NP_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib._300x600_BkgdTone = function() {
-	this.initialize(ss["OPT107_Display_ESP_Lovebirds_300x600_atlas_NP_1"]);
+(lib.OptumCA_01_LOVEBIRDS_0359_1280px = function() {
+	this.initialize(ss["OPT107_Display_ESP_Lovebirds_300x600_atlas_P_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -206,15 +206,15 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_1
-	this.instance = new lib._300x250_Lovebirdsfpo();
-	this.instance.setTransform(-305,-306,0.8695,0.87);
+	// Layer_2
+	this.instance = new lib.OptumCA_01_LOVEBIRDS_0359_1280px();
+	this.instance.setTransform(-333,-245,0.4,0.4);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.pic1, new cjs.Rectangle(-305,-306,521.7,435), null);
+}).prototype = getMCSymbolPrototype(lib.pic1, new cjs.Rectangle(-333,-245,512,384), null);
 
 
 (lib.phone = function(mode,startPosition,loop,reversed) {
@@ -951,7 +951,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-148,300,845.7,318);
+p.nominalBounds = new cjs.Rectangle(-148,300,808,328);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -961,8 +961,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_ESP_Lovebirds_300x600_atlas_P_1.png?1628550337535", id:"OPT107_Display_ESP_Lovebirds_300x600_atlas_P_1"},
-		{src:"images/OPT107_Display_ESP_Lovebirds_300x600_atlas_NP_1.jpg?1628550337535", id:"OPT107_Display_ESP_Lovebirds_300x600_atlas_NP_1"}
+		{src:"images/OPT107_Display_ESP_Lovebirds_300x600_atlas_P_1.png?1628705154302", id:"OPT107_Display_ESP_Lovebirds_300x600_atlas_P_1"},
+		{src:"images/OPT107_Display_ESP_Lovebirds_300x600_atlas_NP_1.jpg?1628705154302", id:"OPT107_Display_ESP_Lovebirds_300x600_atlas_NP_1"}
 	],
 	preloads: []
 };
