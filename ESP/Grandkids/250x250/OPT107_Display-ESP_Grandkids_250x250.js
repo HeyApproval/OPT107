@@ -208,13 +208,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_3
 	this.instance = new lib._300x600_Grandkids();
-	this.instance.setTransform(-180,-337,0.6,0.6);
+	this.instance.setTransform(-173,-300,0.52,0.52);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.pic1, new cjs.Rectangle(-180,-337,240,360), null);
+}).prototype = getMCSymbolPrototype(lib.pic1, new cjs.Rectangle(-173,-300,208,312), null);
 
 
 (lib.phone = function(mode,startPosition,loop,reversed) {
@@ -879,7 +879,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-121,78,632,235);
+p.nominalBounds = new cjs.Rectangle(-121,115,607,187);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -889,8 +889,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_ESP_Grandkids_250x250_atlas_P_1.png?1628549491079", id:"OPT107_Display_ESP_Grandkids_250x250_atlas_P_1"},
-		{src:"images/OPT107_Display_ESP_Grandkids_250x250_atlas_NP_1.jpg?1628549491079", id:"OPT107_Display_ESP_Grandkids_250x250_atlas_NP_1"}
+		{src:"images/OPT107_Display_ESP_Grandkids_250x250_atlas_P_1.png?1628716151602", id:"OPT107_Display_ESP_Grandkids_250x250_atlas_P_1"},
+		{src:"images/OPT107_Display_ESP_Grandkids_250x250_atlas_NP_1.jpg?1628716151602", id:"OPT107_Display_ESP_Grandkids_250x250_atlas_NP_1"}
 	],
 	preloads: []
 };
