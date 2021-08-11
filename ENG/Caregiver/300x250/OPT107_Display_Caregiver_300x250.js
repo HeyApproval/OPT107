@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"OPT107_Display_Caregiver_300x250_atlas_P_1", frames: [[0,0,600,500]]},
+		{name:"OPT107_Display_Caregiver_300x250_atlas_P_1", frames: [[0,0,960,1280]]},
 		{name:"OPT107_Display_Caregiver_300x250_atlas_NP_1", frames: [[0,0,300,250]]}
 ];
 
@@ -34,7 +34,7 @@ lib.ssMetadata = [
 
 
 
-(lib._300x250_Caregiverfpo = function() {
+(lib.OptumCA_02_CAREGIVER_0506_1280px = function() {
 	this.initialize(ss["OPT107_Display_Caregiver_300x250_atlas_P_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -186,15 +186,15 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_1
-	this.instance = new lib._300x250_Caregiverfpo();
-	this.instance.setTransform(-212,-169,0.5,0.5);
+	// Layer_2
+	this.instance = new lib.OptumCA_02_CAREGIVER_0506_1280px();
+	this.instance.setTransform(157.15,-311,0.47,0.47,0,0,180);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.pic1, new cjs.Rectangle(-212,-169,300,250), null);
+}).prototype = getMCSymbolPrototype(lib.pic1, new cjs.Rectangle(-294,-311,451.2,601.6), null);
 
 
 (lib.OptumR_RGBeps = function(mode,startPosition,loop,reversed) {
@@ -818,7 +818,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-86,125,625,206);
+p.nominalBounds = new cjs.Rectangle(-86,64,694.2,476.6);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -828,8 +828,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_Caregiver_300x250_atlas_P_1.png?1627058313596", id:"OPT107_Display_Caregiver_300x250_atlas_P_1"},
-		{src:"images/OPT107_Display_Caregiver_300x250_atlas_NP_1.jpg?1627058313596", id:"OPT107_Display_Caregiver_300x250_atlas_NP_1"}
+		{src:"images/OPT107_Display_Caregiver_300x250_atlas_P_1.png?1628703394572", id:"OPT107_Display_Caregiver_300x250_atlas_P_1"},
+		{src:"images/OPT107_Display_Caregiver_300x250_atlas_NP_1.jpg?1628703394572", id:"OPT107_Display_Caregiver_300x250_atlas_NP_1"}
 	],
 	preloads: []
 };

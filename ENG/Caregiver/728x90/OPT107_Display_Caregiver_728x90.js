@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"OPT107_Display_Caregiver_728x90_atlas_P_1", frames: [[0,0,600,500],[0,502,252,12]]},
+		{name:"OPT107_Display_Caregiver_728x90_atlas_P_1", frames: [[0,1282,252,12],[0,0,960,1280]]},
 		{name:"OPT107_Display_Caregiver_728x90_atlas_NP_1", frames: [[0,0,728,90]]}
 ];
 
@@ -27,13 +27,6 @@ lib.ssMetadata = [
 
 
 
-(lib._300x250_Caregiverfpo = function() {
-	this.initialize(ss["OPT107_Display_Caregiver_728x90_atlas_P_1"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
 (lib._728x90_BkgdTone = function() {
 	this.initialize(ss["OPT107_Display_Caregiver_728x90_atlas_NP_1"]);
 	this.gotoAndStop(0);
@@ -42,6 +35,13 @@ lib.ssMetadata = [
 
 
 (lib.Bitmap1 = function() {
+	this.initialize(ss["OPT107_Display_Caregiver_728x90_atlas_P_1"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.OptumCA_02_CAREGIVER_0506_1280px = function() {
 	this.initialize(ss["OPT107_Display_Caregiver_728x90_atlas_P_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
@@ -75,15 +75,15 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_1
-	this.instance = new lib._300x250_Caregiverfpo();
-	this.instance.setTransform(-212,-169,0.5,0.5);
+	// Layer_2
+	this.instance = new lib.OptumCA_02_CAREGIVER_0506_1280px();
+	this.instance.setTransform(-321,-330,0.52,0.52);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.pic1, new cjs.Rectangle(-212,-169,300,250), null);
+}).prototype = getMCSymbolPrototype(lib.pic1, new cjs.Rectangle(-321,-330,499.2,665.6), null);
 
 
 (lib.OptumR_RGBeps = function(mode,startPosition,loop,reversed) {
@@ -832,7 +832,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-103,35.6,869,148.1);
+p.nominalBounds = new cjs.Rectangle(-103,-88.8,901.4,469.2);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -842,8 +842,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_Caregiver_728x90_atlas_P_1.png?1626992493460", id:"OPT107_Display_Caregiver_728x90_atlas_P_1"},
-		{src:"images/OPT107_Display_Caregiver_728x90_atlas_NP_1.jpg?1626992493460", id:"OPT107_Display_Caregiver_728x90_atlas_NP_1"}
+		{src:"images/OPT107_Display_Caregiver_728x90_atlas_P_1.png?1628703715996", id:"OPT107_Display_Caregiver_728x90_atlas_P_1"},
+		{src:"images/OPT107_Display_Caregiver_728x90_atlas_NP_1.jpg?1628703715996", id:"OPT107_Display_Caregiver_728x90_atlas_NP_1"}
 	],
 	preloads: []
 };
