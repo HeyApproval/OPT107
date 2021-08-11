@@ -34,7 +34,7 @@ lib.ssMetadata = [
 
 
 
-(lib.fpo_MATRIARCH_0811 = function() {
+(lib.OptumCA_03_MATRIARCH_0811_1280px = function() {
 	this.initialize(ss["OPT107_Display_ESP_Matriarch_728x90_atlas_P_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -69,7 +69,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.fpo_MATRIARCH_0811();
+	this.instance = new lib.OptumCA_03_MATRIARCH_0811_1280px();
 	this.instance.setTransform(-390,-374,0.67,0.67);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -757,8 +757,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_ESP_Matriarch_728x90_atlas_P_1.png?1628551177783", id:"OPT107_Display_ESP_Matriarch_728x90_atlas_P_1"},
-		{src:"images/OPT107_Display_ESP_Matriarch_728x90_atlas_NP_1.jpg?1628551177783", id:"OPT107_Display_ESP_Matriarch_728x90_atlas_NP_1"}
+		{src:"images/OPT107_Display_ESP_Matriarch_728x90_atlas_P_1.png?1628706322540", id:"OPT107_Display_ESP_Matriarch_728x90_atlas_P_1"},
+		{src:"images/OPT107_Display_ESP_Matriarch_728x90_atlas_NP_1.jpg?1628706322540", id:"OPT107_Display_ESP_Matriarch_728x90_atlas_NP_1"}
 	],
 	preloads: []
 };
