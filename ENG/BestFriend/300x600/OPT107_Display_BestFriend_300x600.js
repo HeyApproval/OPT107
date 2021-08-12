@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"OPT107_Display_BestFriend_300x600_atlas_P_1", frames: [[0,0,645,656]]},
+		{name:"OPT107_Display_BestFriend_300x600_atlas_P_1", frames: [[0,0,1340,893]]},
 		{name:"OPT107_Display_BestFriend_300x600_atlas_NP_1", frames: [[0,0,300,600]]}
 ];
 
@@ -34,7 +34,7 @@ lib.ssMetadata = [
 
 
 
-(lib.BestFriendFPO2 = function() {
+(lib.BestFriend_QtrSize = function() {
 	this.initialize(ss["OPT107_Display_BestFriend_300x600_atlas_P_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
@@ -186,15 +186,15 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// Layer_2
-	this.instance = new lib.BestFriendFPO2();
-	this.instance.setTransform(148.65,-230,0.57,0.57,0,0,180);
+	// Layer_3
+	this.instance = new lib.BestFriend_QtrSize();
+	this.instance.setTransform(-347,-216,0.36,0.36);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.pic1, new cjs.Rectangle(-219,-230,367.7,373.9), null);
+}).prototype = getMCSymbolPrototype(lib.pic1, new cjs.Rectangle(-347,-216,482.4,321.5), null);
 
 
 (lib.OptumR_RGBeps = function(mode,startPosition,loop,reversed) {
@@ -811,7 +811,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-148,300,777.7,332.9);
+p.nominalBounds = new cjs.Rectangle(-148,300,764.4,300);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -821,8 +821,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_BestFriend_300x600_atlas_P_1.png?1628615513996", id:"OPT107_Display_BestFriend_300x600_atlas_P_1"},
-		{src:"images/OPT107_Display_BestFriend_300x600_atlas_NP_1.jpg?1628615513996", id:"OPT107_Display_BestFriend_300x600_atlas_NP_1"}
+		{src:"images/OPT107_Display_BestFriend_300x600_atlas_P_1.png?1628725981326", id:"OPT107_Display_BestFriend_300x600_atlas_P_1"},
+		{src:"images/OPT107_Display_BestFriend_300x600_atlas_NP_1.jpg?1628725981326", id:"OPT107_Display_BestFriend_300x600_atlas_NP_1"}
 	],
 	preloads: []
 };
