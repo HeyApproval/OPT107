@@ -415,7 +415,7 @@ if (reversed == null) { reversed = false; }
 	this.instance.setTransform(285,37,1,1,0,0,0,0,10);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(66).to({_off:false},0).to({regX:0.1,regY:10.1,scaleX:1.2999,scaleY:1.2999,x:285.05,y:40.2},7).to({regX:0,regY:10,scaleX:1,scaleY:1,x:285,y:37},4).wait(31).to({regX:0.1,regY:10.1,scaleX:1.2999,scaleY:1.2999,x:285.05,y:40.2},7).to({regX:0,regY:10,scaleX:1,scaleY:1,x:285,y:37},4).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(66).to({_off:false},0).to({regX:0.1,regY:10.1,scaleX:1.5,scaleY:1.5,y:42.2},7).to({regX:0,regY:10,scaleX:1,scaleY:1,y:37},4).wait(31).to({regX:0.1,regY:10.1,scaleX:1.5,scaleY:1.5,y:42.2},7).to({regX:0,regY:10,scaleX:1,scaleY:1,y:37},4).wait(1));
 
 	// logo
 	this.instance_1 = new lib.logo();
@@ -426,10 +426,10 @@ if (reversed == null) { reversed = false; }
 
 	// Tag
 	this.instance_2 = new lib.Tag();
-	this.instance_2.setTransform(98,45.15,1,1,0,0,0,-150,15);
-	this.instance_2._off = true;
+	this.instance_2.setTransform(88,45.15,1,1,0,0,0,-150,15);
+	this.instance_2.alpha = 0;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(23).to({_off:false},0).to({x:213.45},14,cjs.Ease.quadOut).wait(83));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({x:213.45,alpha:1},16,cjs.Ease.quadIn).wait(104));
 
 	// border
 	this.shape = new cjs.Shape();
@@ -463,7 +463,7 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_Omni_300x50_atlas_NP_1.jpg?1629151646905", id:"OPT107_Display_Omni_300x50_atlas_NP_1"}
+		{src:"images/OPT107_Display_Omni_300x50_atlas_NP_1.jpg?1629152486714", id:"OPT107_Display_Omni_300x50_atlas_NP_1"}
 	],
 	preloads: []
 };
