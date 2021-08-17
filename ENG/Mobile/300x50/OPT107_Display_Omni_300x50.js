@@ -430,7 +430,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(16).to({_off:false},0).to({alpha:1},16,cjs.Ease.quadIn).wait(88));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(11).to({_off:false},0).to({alpha:1},5,cjs.Ease.quadIn).wait(104));
 
 	// border
 	this.shape = new cjs.Shape();
@@ -464,7 +464,7 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_Omni_300x50_atlas_NP_1.jpg?1629224085119", id:"OPT107_Display_Omni_300x50_atlas_NP_1"}
+		{src:"images/OPT107_Display_Omni_300x50_atlas_NP_1.jpg?1629224568437", id:"OPT107_Display_Omni_300x50_atlas_NP_1"}
 	],
 	preloads: []
 };
