@@ -426,10 +426,11 @@ if (reversed == null) { reversed = false; }
 
 	// Tag
 	this.instance_2 = new lib.Tag();
-	this.instance_2.setTransform(88,45.15,1,1,0,0,0,-150,15);
+	this.instance_2.setTransform(214,45.15,1,1,0,0,0,-150,15);
 	this.instance_2.alpha = 0;
+	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).to({x:213.45,alpha:1},16,cjs.Ease.quadIn).wait(104));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(16).to({_off:false},0).to({alpha:1},16,cjs.Ease.quadIn).wait(88));
 
 	// border
 	this.shape = new cjs.Shape();
@@ -463,7 +464,7 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_Omni_300x50_atlas_NP_1.jpg?1629152486714", id:"OPT107_Display_Omni_300x50_atlas_NP_1"}
+		{src:"images/OPT107_Display_Omni_300x50_atlas_NP_1.jpg?1629224085119", id:"OPT107_Display_Omni_300x50_atlas_NP_1"}
 	],
 	preloads: []
 };
