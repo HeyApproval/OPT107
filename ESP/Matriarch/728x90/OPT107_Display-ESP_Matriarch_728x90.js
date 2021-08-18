@@ -673,7 +673,7 @@ if (reversed == null) { reversed = false; }
 	this.instance.setTransform(646.9,30.1,1,1,0,0,0,0,20.1);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(241).to({_off:false},0).wait(16));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(227).to({_off:false},0).wait(30));
 
 	// HEAD2a
 	this.instance_1 = new lib.HEAD2a();
@@ -681,7 +681,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_1.alpha = 0;
 	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(111).to({_off:false},0).to({alpha:1},6,cjs.Ease.quadOut).wait(67).to({alpha:0},28,cjs.Ease.quadInOut).to({_off:true},1).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(102).to({_off:false},0).to({alpha:1},6,cjs.Ease.quadOut).wait(76).to({alpha:0},28,cjs.Ease.quadInOut).to({_off:true},1).wait(44));
 
 	// HEAD1
 	this.instance_2 = new lib.HEAD1();
@@ -689,7 +689,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_2.alpha = 0;
 	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(28).to({_off:false},0).to({alpha:1},6).wait(58).to({x:151.25},0).to({x:-356.5},16,cjs.Ease.quadInOut).to({_off:true},1).wait(148));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(15).to({_off:false},0).to({alpha:1},6).wait(71).to({x:151.25},0).to({x:-356.5},16,cjs.Ease.quadInOut).to({_off:true},1).wait(148));
 
 	// pic1
 	this.instance_3 = new lib.pic1();
@@ -710,21 +710,21 @@ if (reversed == null) { reversed = false; }
 	this.instance_5.setTransform(668.5,68,1,1,0,0,0,0,10);
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(256).to({_off:false},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(227).to({_off:false},0).wait(30));
 
 	// legal
 	this.instance_6 = new lib.legal();
 	this.instance_6.setTransform(511,84.95,1,1,0,0,0,0,12.8);
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(256).to({_off:false},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(227).to({_off:false},0).wait(30));
 
 	// phone
 	this.instance_7 = new lib.phone();
 	this.instance_7.setTransform(573.05,75.45);
 	this.instance_7._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(256).to({_off:false},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(227).to({_off:false},0).wait(30));
 
 	// Tag
 	this.instance_8 = new lib.Tag();
@@ -757,8 +757,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_ESP_Matriarch_728x90_atlas_P_1.png?1628706322540", id:"OPT107_Display_ESP_Matriarch_728x90_atlas_P_1"},
-		{src:"images/OPT107_Display_ESP_Matriarch_728x90_atlas_NP_1.jpg?1628706322540", id:"OPT107_Display_ESP_Matriarch_728x90_atlas_NP_1"}
+		{src:"images/OPT107_Display_ESP_Matriarch_728x90_atlas_P_1.png", id:"OPT107_Display_ESP_Matriarch_728x90_atlas_P_1"},
+		{src:"images/OPT107_Display_ESP_Matriarch_728x90_atlas_NP_1.jpg", id:"OPT107_Display_ESP_Matriarch_728x90_atlas_NP_1"}
 	],
 	preloads: []
 };
