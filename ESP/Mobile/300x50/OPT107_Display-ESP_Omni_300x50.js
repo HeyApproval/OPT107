@@ -356,14 +356,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#E87722").s().p("A3bCWIAAkrMAu3AAAIAAErg");
-	this.shape.setTransform(0,0,1,0.5333);
+	this.shape.graphics.f("#E87722").s().p("A3bBkIAAjHMAu3AAAIAADHg");
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.HorizRect, new cjs.Rectangle(-150,-8,300,16), null);
+}).prototype = getMCSymbolPrototype(lib.HorizRect, new cjs.Rectangle(-150,-10,300,20), null);
 
 
 (lib.CTA = function(mode,startPosition,loop,reversed) {
@@ -515,7 +514,7 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_ESP_Omni_300x50_atlas_NP_1.jpg?1629226770415", id:"OPT107_Display_ESP_Omni_300x50_atlas_NP_1"}
+		{src:"images/OPT107_Display_ESP_Omni_300x50_atlas_NP_1.jpg?1629319921237", id:"OPT107_Display_ESP_Omni_300x50_atlas_NP_1"}
 	],
 	preloads: []
 };
