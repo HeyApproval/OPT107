@@ -837,35 +837,35 @@ if (reversed == null) { reversed = false; }
 
 	// legal
 	this.instance_1 = new lib.legal();
-	this.instance_1.setTransform(204.55,311.8,1,1,0,0,0,0,12.8);
+	this.instance_1.setTransform(204.55,295.65,1,1,0,0,0,0,12.8);
 	this.instance_1._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(215).to({_off:false},0).wait(30));
 
 	// phone
 	this.instance_2 = new lib.phone();
-	this.instance_2.setTransform(240.2,293.5);
+	this.instance_2.setTransform(240.2,277.35);
 	this.instance_2._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(215).to({_off:false},0).wait(30));
 
 	// CTA
 	this.instance_3 = new lib.CTA();
-	this.instance_3.setTransform(240.5,271.95,1,1,0,0,0,0,10);
+	this.instance_3.setTransform(240.5,255.8,1,1,0,0,0,0,10);
 	this.instance_3._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(215).to({_off:false},0).wait(30));
 
 	// logo
 	this.instance_4 = new lib.logo();
-	this.instance_4.setTransform(203.1,208,1.23,1.23,0,0,0,0.1,20.1);
+	this.instance_4.setTransform(203.1,191.85,1.23,1.23,0,0,0,0.1,20.1);
 	this.instance_4._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(215).to({_off:false},0).wait(30));
 
 	// Tag
 	this.instance_5 = new lib.Tag();
-	this.instance_5.setTransform(491,126.4,1,1,0,0,0,-150,15);
+	this.instance_5.setTransform(491,110.25,1,1,0,0,0,-150,15);
 	this.instance_5._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(201).to({_off:false},0).to({x:311.4},14,cjs.Ease.quadOut).wait(30));
@@ -917,8 +917,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_ESP_Caregiver_300x600_atlas_P_1.png?1629485600110", id:"OPT107_Display_ESP_Caregiver_300x600_atlas_P_1"},
-		{src:"images/OPT107_Display_ESP_Caregiver_300x600_atlas_NP_1.jpg?1629485600110", id:"OPT107_Display_ESP_Caregiver_300x600_atlas_NP_1"}
+		{src:"images/OPT107_Display_ESP_Caregiver_300x600_atlas_P_1.png?1629486668092", id:"OPT107_Display_ESP_Caregiver_300x600_atlas_P_1"},
+		{src:"images/OPT107_Display_ESP_Caregiver_300x600_atlas_NP_1.jpg?1629486668092", id:"OPT107_Display_ESP_Caregiver_300x600_atlas_NP_1"}
 	],
 	preloads: []
 };
