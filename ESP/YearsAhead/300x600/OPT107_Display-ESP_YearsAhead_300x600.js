@@ -889,7 +889,7 @@ if (reversed == null) { reversed = false; }
 
 	// legal
 	this.instance_1 = new lib.legal();
-	this.instance_1.setTransform(204.55,10.05,1,1,0,0,0,0,12.8);
+	this.instance_1.setTransform(204.55,311.8,1,1,0,0,0,0,12.8);
 	this.instance_1._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(215).to({_off:false},0).wait(30));
@@ -940,7 +940,7 @@ if (reversed == null) { reversed = false; }
 
 	// pic1
 	this.instance_8 = new lib.pic1();
-	this.instance_8.setTransform(481,364,1,1,0,0,0,0,-125);
+	this.instance_8.setTransform(481,384,1,1,0,0,0,0,-125);
 	this.instance_8._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(5).to({_off:false},0).to({x:218},16,cjs.Ease.quadOut).wait(71).to({x:187.25},16,cjs.Ease.quadInOut).wait(137));
@@ -959,7 +959,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-148,296,751,304);
+p.nominalBounds = new cjs.Rectangle(-148,300,751,316);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -969,8 +969,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_ESP_YearsAhead_300x600_atlas_P_1.png", id:"OPT107_Display_ESP_YearsAhead_300x600_atlas_P_1"},
-		{src:"images/OPT107_Display_ESP_YearsAhead_300x600_atlas_NP_1.jpg", id:"OPT107_Display_ESP_YearsAhead_300x600_atlas_NP_1"}
+		{src:"images/OPT107_Display_ESP_YearsAhead_300x600_atlas_P_1.png?1629485643013", id:"OPT107_Display_ESP_YearsAhead_300x600_atlas_P_1"},
+		{src:"images/OPT107_Display_ESP_YearsAhead_300x600_atlas_NP_1.jpg?1629485643013", id:"OPT107_Display_ESP_YearsAhead_300x600_atlas_NP_1"}
 	],
 	preloads: []
 };
