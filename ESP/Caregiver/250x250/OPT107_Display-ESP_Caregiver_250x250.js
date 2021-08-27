@@ -885,11 +885,11 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD1
 	this.instance_8 = new lib.HEAD1();
-	this.instance_8.setTransform(74.5,104.9,1,1,0,0,0,110.5,47.9);
+	this.instance_8.setTransform(78.5,104.9,1,1,0,0,0,110.5,47.9);
 	this.instance_8.alpha = 0;
 	this.instance_8._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(15).to({_off:false},0).to({x:124.5,alpha:1},6).wait(71).to({x:-116.5},16,cjs.Ease.quadInOut).to({_off:true},1).wait(136));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(15).to({_off:false},0).to({x:128.5,alpha:1},6).wait(71).to({x:-116.5},16,cjs.Ease.quadInOut).to({_off:true},1).wait(136));
 
 	// pic1
 	this.instance_9 = new lib.pic1();
@@ -923,8 +923,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_ESP_Caregiver_250x250_atlas_P_1.png?1630014175048", id:"OPT107_Display_ESP_Caregiver_250x250_atlas_P_1"},
-		{src:"images/OPT107_Display_ESP_Caregiver_250x250_atlas_NP_1.jpg?1630014175048", id:"OPT107_Display_ESP_Caregiver_250x250_atlas_NP_1"}
+		{src:"images/OPT107_Display_ESP_Caregiver_250x250_atlas_P_1.png?1630090414158", id:"OPT107_Display_ESP_Caregiver_250x250_atlas_P_1"},
+		{src:"images/OPT107_Display_ESP_Caregiver_250x250_atlas_NP_1.jpg?1630090414158", id:"OPT107_Display_ESP_Caregiver_250x250_atlas_NP_1"}
 	],
 	preloads: []
 };
