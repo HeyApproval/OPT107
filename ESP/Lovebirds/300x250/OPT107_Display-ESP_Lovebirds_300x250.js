@@ -919,28 +919,28 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(201).to({_off:false},0).to({x:311.4},14,cjs.Ease.quadOut).wait(30));
 
-	// HEAD2a
-	this.instance_7 = new lib.HEAD2a();
-	this.instance_7.setTransform(387.25,110.8,1,1,0,0,0,110.5,47.8);
-	this.instance_7.alpha = 0;
+	// pic1
+	this.instance_7 = new lib.pic1();
+	this.instance_7.setTransform(451,125,1,1,0,0,0,0,-125);
 	this.instance_7._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(102).to({_off:false},0).to({alpha:1},6,cjs.Ease.quadOut).wait(76).to({x:99.5},16,cjs.Ease.quadInOut).to({_off:true},1).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(5).to({_off:false},0).to({x:298},16,cjs.Ease.quadOut).wait(71).to({x:127.25},16,cjs.Ease.quadInOut).wait(137));
 
-	// HEAD1
-	this.instance_8 = new lib.HEAD1();
-	this.instance_8.setTransform(130.5,100.9,1,1,0,0,0,110.5,47.9);
+	// HEAD2a
+	this.instance_8 = new lib.HEAD2a();
+	this.instance_8.setTransform(387.25,110.8,1,1,0,0,0,110.5,47.8);
 	this.instance_8.alpha = 0;
 	this.instance_8._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(15).to({_off:false},0).to({alpha:1},6).wait(71).to({x:-66.5},16,cjs.Ease.quadInOut).to({_off:true},1).wait(136));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(102).to({_off:false},0).to({alpha:1},6,cjs.Ease.quadOut).wait(76).to({x:99.5},16,cjs.Ease.quadInOut).to({_off:true},1).wait(44));
 
-	// pic1
-	this.instance_9 = new lib.pic1();
-	this.instance_9.setTransform(451,125,1,1,0,0,0,0,-125);
+	// HEAD1
+	this.instance_9 = new lib.HEAD1();
+	this.instance_9.setTransform(130.5,100.9,1,1,0,0,0,110.5,47.9);
+	this.instance_9.alpha = 0;
 	this.instance_9._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(5).to({_off:false},0).to({x:298},16,cjs.Ease.quadOut).wait(71).to({x:127.25},16,cjs.Ease.quadInOut).wait(137));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(15).to({_off:false},0).to({alpha:1},6).wait(71).to({x:-66.5},16,cjs.Ease.quadInOut).to({_off:true},1).wait(136));
 
 	// HorizRect
 	this.instance_10 = new lib.HorizRect();
@@ -966,8 +966,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_ESP_Lovebirds_300x250_atlas_P_1.png?1630091076365", id:"OPT107_Display_ESP_Lovebirds_300x250_atlas_P_1"},
-		{src:"images/OPT107_Display_ESP_Lovebirds_300x250_atlas_NP_1.jpg?1630091076365", id:"OPT107_Display_ESP_Lovebirds_300x250_atlas_NP_1"}
+		{src:"images/OPT107_Display_ESP_Lovebirds_300x250_atlas_P_1.png?1630098902206", id:"OPT107_Display_ESP_Lovebirds_300x250_atlas_P_1"},
+		{src:"images/OPT107_Display_ESP_Lovebirds_300x250_atlas_NP_1.jpg?1630098902206", id:"OPT107_Display_ESP_Lovebirds_300x250_atlas_NP_1"}
 	],
 	preloads: []
 };
