@@ -756,53 +756,59 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(215).to({_off:false},0).wait(30));
 
-	// logo
+	// logo top
 	this.instance_2 = new lib.logo();
-	this.instance_2.setTransform(203.1,208,1.23,1.23,0,0,0,0.1,20.1);
-	this.instance_2._off = true;
+	this.instance_2.setTransform(64.2,37.15,0.7,0.7,0,0,0,0.1,20.2);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(215).to({_off:false},0).wait(30));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(184).to({x:-74.95},16,cjs.Ease.quadInOut).to({_off:true},1).wait(44));
 
-	// Tag
-	this.instance_3 = new lib.Tag();
-	this.instance_3.setTransform(491,126.4,1,1,0,0,0,-150,15);
+	// logo
+	this.instance_3 = new lib.logo();
+	this.instance_3.setTransform(203.1,208,1.23,1.23,0,0,0,0.1,20.1);
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(201).to({_off:false},0).to({x:311.4},14,cjs.Ease.quadOut).wait(30));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(215).to({_off:false},0).wait(30));
 
-	// HEAD2a
-	this.instance_4 = new lib.HEAD2a();
-	this.instance_4.setTransform(124.25,136.8,1,1,0,0,0,110.5,47.8);
-	this.instance_4.alpha = 0;
+	// Tag
+	this.instance_4 = new lib.Tag();
+	this.instance_4.setTransform(491,126.4,1,1,0,0,0,-150,15);
 	this.instance_4._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(102).to({_off:false},0).to({alpha:1},6,cjs.Ease.quadOut).wait(76).to({x:-83.5},16,cjs.Ease.quadIn).to({_off:true},1).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance_4).wait(201).to({_off:false},0).to({x:311.4},14,cjs.Ease.quadOut).wait(30));
 
-	// HEAD1
-	this.instance_5 = new lib.HEAD1();
-	this.instance_5.setTransform(124.25,117.9,1,1,0,0,0,110.5,47.9);
+	// HEAD2a
+	this.instance_5 = new lib.HEAD2a();
+	this.instance_5.setTransform(124.25,136.8,1,1,0,0,0,110.5,47.8);
 	this.instance_5.alpha = 0;
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(15).to({_off:false},0).to({alpha:1},6).wait(71).to({x:-145.5},16,cjs.Ease.quadInOut).to({_off:true},1).wait(136));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(102).to({_off:false},0).to({alpha:1},6,cjs.Ease.quadOut).wait(76).to({x:-83.5},16,cjs.Ease.quadIn).to({_off:true},1).wait(44));
 
-	// pic1
-	this.instance_6 = new lib.pic1();
-	this.instance_6.setTransform(421,475,1,1,0,0,0,0,-125);
+	// HEAD1
+	this.instance_6 = new lib.HEAD1();
+	this.instance_6.setTransform(124.25,117.9,1,1,0,0,0,110.5,47.9);
+	this.instance_6.alpha = 0;
 	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(5).to({_off:false},0).to({x:178},16,cjs.Ease.quadOut).wait(71).to({x:147.25},16,cjs.Ease.quadInOut).wait(137));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(15).to({_off:false},0).to({alpha:1},6).wait(71).to({x:-145.5},16,cjs.Ease.quadInOut).to({_off:true},1).wait(136));
+
+	// pic1
+	this.instance_7 = new lib.pic1();
+	this.instance_7.setTransform(421,475,1,1,0,0,0,0,-125);
+	this.instance_7._off = true;
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(5).to({_off:false},0).to({x:178},16,cjs.Ease.quadOut).wait(71).to({x:147.25},16,cjs.Ease.quadInOut).wait(137));
 
 	// HorizRect
-	this.instance_7 = new lib.HorizRect();
-	this.instance_7.setTransform(150,222);
+	this.instance_8 = new lib.HorizRect();
+	this.instance_8.setTransform(150,222);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(184).to({x:-148},16,cjs.Ease.quadIn).to({_off:true},1).wait(44));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(184).to({x:-148},16,cjs.Ease.quadIn).to({_off:true},1).wait(44));
 
 	// bkgd
-	this.instance_8 = new lib._300x600_BkgdTone();
+	this.instance_9 = new lib._300x600_BkgdTone();
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(245));
+	this.timeline.addTween(cjs.Tween.get(this.instance_9).wait(245));
 
 	this._renderFirstFrame();
 
@@ -817,8 +823,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_Grandkids_300x600_atlas_P_1.png", id:"OPT107_Display_Grandkids_300x600_atlas_P_1"},
-		{src:"images/OPT107_Display_Grandkids_300x600_atlas_NP_1.jpg", id:"OPT107_Display_Grandkids_300x600_atlas_NP_1"}
+		{src:"images/OPT107_Display_Grandkids_300x600_atlas_P_1.png?1630020122541", id:"OPT107_Display_Grandkids_300x600_atlas_P_1"},
+		{src:"images/OPT107_Display_Grandkids_300x600_atlas_NP_1.jpg?1630020122541", id:"OPT107_Display_Grandkids_300x600_atlas_NP_1"}
 	],
 	preloads: []
 };
