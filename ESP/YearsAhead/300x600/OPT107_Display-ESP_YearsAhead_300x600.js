@@ -930,7 +930,7 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD2a
 	this.instance_7 = new lib.HEAD2a();
-	this.instance_7.setTransform(386.25,136.8,1,1,0,0,0,110.5,47.8);
+	this.instance_7.setTransform(386.25,123.8,1,1,0,0,0,110.5,47.8);
 	this.instance_7.alpha = 0;
 	this.instance_7._off = true;
 
@@ -938,7 +938,7 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD1
 	this.instance_8 = new lib.HEAD1();
-	this.instance_8.setTransform(134.25,117.9,1,1,0,0,0,110.5,47.9);
+	this.instance_8.setTransform(130.25,107.9,1,1,0,0,0,110.5,47.9);
 	this.instance_8.alpha = 0;
 	this.instance_8._off = true;
 
@@ -975,8 +975,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_ESP_YearsAhead_300x600_atlas_P_1.png?1630020028008", id:"OPT107_Display_ESP_YearsAhead_300x600_atlas_P_1"},
-		{src:"images/OPT107_Display_ESP_YearsAhead_300x600_atlas_NP_1.jpg?1630020028008", id:"OPT107_Display_ESP_YearsAhead_300x600_atlas_NP_1"}
+		{src:"images/OPT107_Display_ESP_YearsAhead_300x600_atlas_P_1.png?1630096737691", id:"OPT107_Display_ESP_YearsAhead_300x600_atlas_P_1"},
+		{src:"images/OPT107_Display_ESP_YearsAhead_300x600_atlas_NP_1.jpg?1630096737691", id:"OPT107_Display_ESP_YearsAhead_300x600_atlas_NP_1"}
 	],
 	preloads: []
 };
