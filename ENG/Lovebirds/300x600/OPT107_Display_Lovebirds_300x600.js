@@ -188,13 +188,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.instance = new lib.OptumCA_01_LOVEBIRDS_0359_1280px();
-	this.instance.setTransform(-333,-245,0.4,0.4);
+	this.instance.setTransform(-410,-217,0.59,0.59);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.pic1, new cjs.Rectangle(-333,-245,512,384), null);
+}).prototype = getMCSymbolPrototype(lib.pic1, new cjs.Rectangle(-410,-217,755.2,566.4), null);
 
 
 (lib.OptumR_RGBeps = function(mode,startPosition,loop,reversed) {
@@ -797,7 +797,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_7.setTransform(481,364,1,1,0,0,0,0,-125);
 	this.instance_7._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(5).to({_off:false},0).to({x:218},16,cjs.Ease.quadOut).wait(71).to({x:167.25},16,cjs.Ease.quadInOut).wait(137));
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(5).to({_off:false},0).to({x:198},16,cjs.Ease.quadOut).wait(71).to({x:167.25},16,cjs.Ease.quadInOut).wait(137));
 
 	// HorizRect
 	this.instance_8 = new lib.HorizRect();
@@ -813,7 +813,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-148,300,808,328);
+p.nominalBounds = new cjs.Rectangle(-148,300,974.2,538.4);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -823,8 +823,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_Lovebirds_300x600_atlas_P_1.png?1630020116417", id:"OPT107_Display_Lovebirds_300x600_atlas_P_1"},
-		{src:"images/OPT107_Display_Lovebirds_300x600_atlas_NP_1.jpg?1630020116417", id:"OPT107_Display_Lovebirds_300x600_atlas_NP_1"}
+		{src:"images/OPT107_Display_Lovebirds_300x600_atlas_P_1.png?1631142447538", id:"OPT107_Display_Lovebirds_300x600_atlas_P_1"},
+		{src:"images/OPT107_Display_Lovebirds_300x600_atlas_NP_1.jpg?1631142447538", id:"OPT107_Display_Lovebirds_300x600_atlas_NP_1"}
 	],
 	preloads: []
 };
