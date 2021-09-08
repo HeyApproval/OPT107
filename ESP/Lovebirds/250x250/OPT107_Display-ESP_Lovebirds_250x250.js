@@ -208,13 +208,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.instance = new lib.OptumCA_01_LOVEBIRDS_0359_1280px();
-	this.instance.setTransform(-258,-199,0.29,0.29);
+	this.instance.setTransform(-299,-205,0.37,0.37);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.pic1, new cjs.Rectangle(-258,-199,371.2,278.4), null);
+}).prototype = getMCSymbolPrototype(lib.pic1, new cjs.Rectangle(-299,-205,473.6,355.2), null);
 
 
 (lib.phone = function(mode,startPosition,loop,reversed) {
@@ -957,7 +957,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(-181,125,663.7,216.5);
+p.nominalBounds = new cjs.Rectangle(-181,125,718.9,280.3);
 // library properties:
 lib.properties = {
 	id: '0957C5EC3B874C629166840920B09671',
@@ -967,8 +967,8 @@ lib.properties = {
 	color: "#333333",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/OPT107_Display_ESP_Lovebirds_250x250_atlas_P_1.png?1630091091925", id:"OPT107_Display_ESP_Lovebirds_250x250_atlas_P_1"},
-		{src:"images/OPT107_Display_ESP_Lovebirds_250x250_atlas_NP_1.jpg?1630091091925", id:"OPT107_Display_ESP_Lovebirds_250x250_atlas_NP_1"}
+		{src:"images/OPT107_Display_ESP_Lovebirds_250x250_atlas_P_1.png?1631141714327", id:"OPT107_Display_ESP_Lovebirds_250x250_atlas_P_1"},
+		{src:"images/OPT107_Display_ESP_Lovebirds_250x250_atlas_NP_1.jpg?1631141714327", id:"OPT107_Display_ESP_Lovebirds_250x250_atlas_NP_1"}
 	],
 	preloads: []
 };
